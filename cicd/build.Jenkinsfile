@@ -1,10 +1,10 @@
 pipeline {
     agent any
     
-    # parameters {
-    #     string(name: 'IMAGE_NAME', defaultValue: '', description: 'Name of the Docker image to deploy')
-    #     string(name: 'REGISTRY_URL', defaultValue: '', description: 'Docker registry URL')
-    # }
+    // parameters {
+    //     string(name: 'IMAGE_NAME', defaultValue: '', description: 'Name of the Docker image to deploy')
+    //     string(name: 'REGISTRY_URL', defaultValue: '', description: 'Docker registry URL')
+    // }
 
     stages {
         stage('Initialize'){
